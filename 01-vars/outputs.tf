@@ -23,3 +23,10 @@ output "sample_list_fetch-values" {
 output "sample_dict_fetch-values" {
   value = var.sample_dict["rate"]
 }
+output "env" {
+  value = var.env
+}
+
+output "auto_num1" {
+  value = var.auto_num1
+}
