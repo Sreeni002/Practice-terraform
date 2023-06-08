@@ -21,7 +21,7 @@ output "sample_list_fetch-values" {
 #Print values from dictionary
 
 output "sample_dict_fetch-values" {
-  value = var.sample_dict["Rate"]
+  value = var.sample_dict["number"]
 }
 output "env" {
   value = var.env
